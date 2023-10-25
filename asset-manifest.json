@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sean-91.github.io/static/css/main.d47e88e7.css",
-    "main.js": "/sean-91.github.io/static/js/main.c6058068.js",
-    "static/js/787.3afa13e6.chunk.js": "/sean-91.github.io/static/js/787.3afa13e6.chunk.js",
-    "static/media/logo.svg": "/sean-91.github.io/static/media/logo.e8df085abd251c98a55ce1867ecaf3e4.svg",
-    "index.html": "/sean-91.github.io/index.html",
-    "main.d47e88e7.css.map": "/sean-91.github.io/static/css/main.d47e88e7.css.map",
-    "main.c6058068.js.map": "/sean-91.github.io/static/js/main.c6058068.js.map",
-    "787.3afa13e6.chunk.js.map": "/sean-91.github.io/static/js/787.3afa13e6.chunk.js.map"
+    "main.css": "/static/css/main.d47e88e7.css",
+    "main.js": "/static/js/main.2c9390cf.js",
+    "static/js/787.3afa13e6.chunk.js": "/static/js/787.3afa13e6.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.e8df085abd251c98a55ce1867ecaf3e4.svg",
+    "index.html": "/index.html",
+    "main.d47e88e7.css.map": "/static/css/main.d47e88e7.css.map",
+    "main.2c9390cf.js.map": "/static/js/main.2c9390cf.js.map",
+    "787.3afa13e6.chunk.js.map": "/static/js/787.3afa13e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d47e88e7.css",
-    "static/js/main.c6058068.js"
+    "static/js/main.2c9390cf.js"
   ]
 }
