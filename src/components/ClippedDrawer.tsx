@@ -31,7 +31,7 @@ export const ClippedDrawer = ({ pages }: ClippedDrawProps) => {
       <CssBaseline />
       <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
         <Toolbar>
-          <Typography variant="h6" noWrap component="div">
+          <Typography variant="h6" noWrap component="div" onClick={() => { navigate("/") }}>
             VaporRaven
           </Typography>
         </Toolbar>
