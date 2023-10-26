@@ -1,16 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.d47e88e7.css",
-    "main.js": "/static/js/main.f3ce2423.js",
+    "main.js": "/static/js/main.1cbd20c7.js",
     "static/js/787.3afa13e6.chunk.js": "/static/js/787.3afa13e6.chunk.js",
+    "static/media/noisyMiner.jpg": "/static/media/noisyMiner.c510c420db60e4e23da8.jpg",
+    "static/media/piedCurrawong.jpg": "/static/media/piedCurrawong.69d7bfba5beeb711e8ed.jpg",
+    "static/media/laughingKookaburra.jpg": "/static/media/laughingKookaburra.bd9c9c270b4d451bee29.jpg",
+    "static/media/maskedLapwing.jpg": "/static/media/maskedLapwing.697ed639801720cf4c07.jpg",
+    "static/media/australianMagpie.jpg": "/static/media/australianMagpie.19bca6fdd1c08b964f70.jpg",
     "static/media/logo.svg": "/static/media/logo.e8df085abd251c98a55ce1867ecaf3e4.svg",
     "index.html": "/index.html",
     "main.d47e88e7.css.map": "/static/css/main.d47e88e7.css.map",
-    "main.f3ce2423.js.map": "/static/js/main.f3ce2423.js.map",
+    "main.1cbd20c7.js.map": "/static/js/main.1cbd20c7.js.map",
     "787.3afa13e6.chunk.js.map": "/static/js/787.3afa13e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d47e88e7.css",
-    "static/js/main.f3ce2423.js"
+    "static/js/main.1cbd20c7.js"
   ]
 }
