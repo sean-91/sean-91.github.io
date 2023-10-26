@@ -1,21 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.d47e88e7.css",
-    "main.js": "/static/js/main.1cbd20c7.js",
+    "main.js": "/static/js/main.04d7fc76.js",
     "static/js/787.3afa13e6.chunk.js": "/static/js/787.3afa13e6.chunk.js",
+    "static/media/australianIbis.jpg": "/static/media/australianIbis.928ddfa13e8b429ef612.jpg",
     "static/media/noisyMiner.jpg": "/static/media/noisyMiner.c510c420db60e4e23da8.jpg",
+    "static/media/commonMyna.jpg": "/static/media/commonMyna.d3a16a9210665061ae9d.jpg",
     "static/media/piedCurrawong.jpg": "/static/media/piedCurrawong.69d7bfba5beeb711e8ed.jpg",
     "static/media/laughingKookaburra.jpg": "/static/media/laughingKookaburra.bd9c9c270b4d451bee29.jpg",
     "static/media/maskedLapwing.jpg": "/static/media/maskedLapwing.697ed639801720cf4c07.jpg",
+    "static/media/rainbowLorikeet.jpg": "/static/media/rainbowLorikeet.d11b89cb3cec2534791d.jpg",
     "static/media/australianMagpie.jpg": "/static/media/australianMagpie.19bca6fdd1c08b964f70.jpg",
+    "static/media/rockPigeon.jpg": "/static/media/rockPigeon.8475902b82b6e30b5dff.jpg",
+    "static/media/sulphurCrestedCockatoo.jpg": "/static/media/sulphurCrestedCockatoo.cf34024f47a6318fa49e.jpg",
     "static/media/logo.svg": "/static/media/logo.e8df085abd251c98a55ce1867ecaf3e4.svg",
     "index.html": "/index.html",
     "main.d47e88e7.css.map": "/static/css/main.d47e88e7.css.map",
-    "main.1cbd20c7.js.map": "/static/js/main.1cbd20c7.js.map",
+    "main.04d7fc76.js.map": "/static/js/main.04d7fc76.js.map",
     "787.3afa13e6.chunk.js.map": "/static/js/787.3afa13e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d47e88e7.css",
-    "static/js/main.1cbd20c7.js"
+    "static/js/main.04d7fc76.js"
   ]
 }
