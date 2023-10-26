@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import AppBar from '@mui/material/AppBar';
@@ -13,8 +12,8 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import StarIcon from '@mui/icons-material/Star';
 import { BlogPageInfo } from '../model/BlogPageInfo';
-
 import { useNavigate } from 'react-router-dom';
+import { Router } from './Router';
 
 const drawerWidth = 240;
 
@@ -29,7 +28,7 @@ export const ClippedDrawer = ({ pages }: ClippedDrawProps) => {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
+      <AppBar position="fixed" >
         <Toolbar>
           <Typography variant="h6" noWrap component="div" onClick={() => { navigate("/") }}>
             VaporRaven
@@ -47,9 +46,9 @@ export const ClippedDrawer = ({ pages }: ClippedDrawProps) => {
         <Toolbar />
         <Box sx={{ overflow: 'auto' }}>
           <List>
-            {pages.map((page, index) => (
-              <ListItem key={page.title} disablePadding>
-                <ListItemButton onClick={() => { navigate(page.path) }} sx={{ p: 0 }}>
+            {pages.map((page) => (
+              <ListItem key={page.path} disablePadding>
+                <ListItemButton onClick={() => { navigate(encodeURIComponent(page.path)) }} sx={{ p: 0 }}>
                   <ListItemIcon>
                     {<StarIcon />}
                   </ListItemIcon>
@@ -61,6 +60,10 @@ export const ClippedDrawer = ({ pages }: ClippedDrawProps) => {
           <Divider />
         </Box>
       </Drawer>
+      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+        <Toolbar />
+        <Router pages={pages} />
+      </Box>
     </Box>
   );
 }

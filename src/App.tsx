@@ -1,25 +1,18 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-import { Home } from "./pages/Home";
+import { BrowserRouter } from "react-router-dom";
 import { ClippedDrawer } from "./components/ClippedDrawer";
-import { BlogPageInfo } from "./model/BlogPageInfo";
-import { BlogPage } from "./components/BlogPage";
+import { pages } from "./blog/Blog";
+import { ThemeProvider } from '@mui/material/styles';
+import { theme } from './components/Theme';
+import { grey } from './components/Theme';
 
 function App() {
-  const pages: BlogPageInfo[] = [
-    new BlogPageInfo("foo1", "bar1", "baz"),
-    new BlogPageInfo("foo2", "bar2", "baz"),
-  ];
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundColor: grey }}>
       <BrowserRouter>
-        <ClippedDrawer pages={pages} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          {pages.map((page) => (
-            <Route path={`/${page.path}`} element={<BlogPage {...page} />} />
-          ))}
-        </Routes>
+        <ThemeProvider theme={theme}>
+          <ClippedDrawer pages={pages} />
+        </ThemeProvider>
       </BrowserRouter>
     </div >
   );
